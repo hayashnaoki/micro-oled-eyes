@@ -2,6 +2,14 @@
 
 A dual-display hardware project using a Seeed Studio XIAO RP2040 and two SH1106 OLED screens to animate synchronized eye tracking movements.
 
+<div class="media-wrapper">
+    <video src="assets/oled-eye.mp4"
+    autoplay
+    muted
+    loop
+    playsinline></video>
+</div>
+
 ---
 
 ## Hardware Configuration & Pin Mapping
@@ -12,8 +20,8 @@ Because the silk-screened labels on the XIAO RP2040 do not match the native inte
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **GND** | Ground | GND | GND | **GND** | **GND** |
 | **VCC** | Power (3.3V) | VCC | VCC | **3V3** | **3V3** |
-| **D0** | SPI Clock | SCLK | SCLK | **D8** | **GPIO 2** |
-| **D1** | SPI Data (MOSI) | MOSI | MOSI | **D10** | **GPIO 3** |
+| **SCK** | SPI Clock | SCLK | SCLK | **D8** | **GPIO 2** |
+| **SDA** | SPI Data (MOSI) | MOSI | MOSI | **D10** | **GPIO 3** |
 | **RES** | Hardware Reset | RES | RES | **D3** | **GPIO 29** |
 | **DC** | Data / Command | DC | DC | **D4** | **GPIO 6** |
 | **CS** | Chip Select | CS | — | **D1** | **GPIO 27** |
