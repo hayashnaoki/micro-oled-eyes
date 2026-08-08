@@ -2,7 +2,7 @@
 
 A dual-display hardware project using a Seeed Studio XIAO RP2040 and two SH1106 OLED screens to animate synchronized eye tracking movements.
 
-![](https://github.com/hayashnaoki/micro-oled-eyes/blob/main/assets/oled-eye.mp4)
+[![Micro OLED Eyes](assets/oled-eye.mp4)](assets/oled-eye.mp4)
 
 ---
 
